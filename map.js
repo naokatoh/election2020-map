@@ -2,10 +2,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmsyOTcwIiwiYSI6ImNreDR4ZTZ4dDBhbngydnF1dzBxN
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/nk2970/cl3ugy68r000s14pn7v1pfrcq',
-    zoom: 6.5,
+    zoom: 3,
     maxZoom:9,
     minZoom:3,
-    center: [-85.5, 37.7]
+    center: [-100.5, 37.7]
 });
 
 // map1
@@ -208,10 +208,10 @@ map.on("mouseleave", "us_counties_elections", function () {
 var map2 = new mapboxgl.Map({
   container: 'map2',
   style: 'mapbox://styles/nk2970/cl3ugy68r000s14pn7v1pfrcq',
-  zoom: 6.5,
+  zoom: 3,
   maxZoom:9,
   minZoom:3,
-  center: [-85.5, 37.7]
+  center: [-100.5, 37.7]
 });
 
 
